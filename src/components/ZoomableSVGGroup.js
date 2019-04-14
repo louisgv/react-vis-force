@@ -220,7 +220,7 @@ export default class ZoomableSVGGroup extends PureComponent {
     const scaleMultiplier = this.getScaleMultiplier(deltaY);
 
     if (scaleMultiplier !== 1) {
-      event.preventDefault();
+      // event.preventDefault();
       this.zoomTo(clientX, clientY, scaleMultiplier, event);
     }
   }

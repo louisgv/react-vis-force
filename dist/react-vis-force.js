@@ -1,23 +1,3 @@
-// Copyright (c) 2019 Uber Technologies, Inc.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a copy
-// of this software and associated documentation files (the "Software"), to deal
-// in the Software without restriction, including without limitation the rights
-// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-// copies of the Software, and to permit persons to whom the Software is
-// furnished to do so, subject to the following conditions:
-//
-// The above copyright notice and this permission notice shall be included in
-// all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-// THE SOFTWARE.
-
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("react"));
@@ -149,7 +129,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 	
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }var ALPHA_FACTORS = ['alpha', 'alphaDecay', 'alphaMin', 'alphaTarget', 'velocityDecay'];
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; } // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	var ALPHA_FACTORS = ['alpha', 'alphaDecay', 'alphaMin', 'alphaTarget', 'velocityDecay'];
 	
 	// ---- PRIVATE METHODS ----
 	/**
@@ -470,7 +470,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }function isNode(child) {
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	function isNode(child) {
 	  return child.props && child.props.node;
 	}
 	
@@ -889,7 +909,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }var ForceGraphLink = function (_PureComponent) {
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	var ForceGraphLink = function (_PureComponent) {
 	  _inherits(ForceGraphLink, _PureComponent);
 	
 	  function ForceGraphLink() {
@@ -990,7 +1030,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	  source: _propTypes2.default.string.isRequired,
 	  target: _propTypes2.default.string.isRequired,
 	  value: _propTypes2.default.number
-	});/***/ },
+	}); // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+
+/***/ },
 /* 7 */
 /***/ function(module, exports) {
 
@@ -1231,7 +1291,29 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 9 */
-/***/ function(module, exports, __webpack_require__) {(/* istanbul ignore next */ function() {
+/***/ function(module, exports, __webpack_require__) {
+
+	// Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	(/* istanbul ignore next */ function() {
 	  /* istanbul ignore if */
 	  if (typeof Promise === 'undefined') {
 	    // Rejection tracking prevents a common issue where React gets into an
@@ -1521,7 +1603,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }var ForceGraphArrowLink = function (_PureComponent) {
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	var ForceGraphArrowLink = function (_PureComponent) {
 	  _inherits(ForceGraphArrowLink, _PureComponent);
 	
 	  function ForceGraphArrowLink() {
@@ -1626,7 +1728,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }var ForceGraphNode = function (_PureComponent) {
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	var ForceGraphNode = function (_PureComponent) {
 	  _inherits(ForceGraphNode, _PureComponent);
 	
 	  function ForceGraphNode() {
@@ -1727,7 +1849,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }var isTouch = _global.window && 'ontouchstart' in _global.window;
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	var isTouch = _global.window && 'ontouchstart' in _global.window;
 	
 	var selectedNodeShape = _propTypes2.default.shape({
 	  id: _propTypes2.default.string
@@ -1983,7 +2125,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }var ZOOMABLE_SVG_GROUP_EVENT_NAMES = exports.ZOOMABLE_SVG_GROUP_EVENT_NAMES = ['onMouseDown', 'onMouseMove', 'onMouseUp', 'onTouchCancel', 'onTouchEnd', 'onTouchMove', 'onTouchStart', 'onWheel'];
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	var ZOOMABLE_SVG_GROUP_EVENT_NAMES = exports.ZOOMABLE_SVG_GROUP_EVENT_NAMES = ['onMouseDown', 'onMouseMove', 'onMouseUp', 'onTouchCancel', 'onTouchEnd', 'onTouchMove', 'onTouchStart', 'onWheel'];
 	
 	/**
 	 * This component draws upon the patterns in https://github.com/anvaka/panzoom
@@ -2205,7 +2367,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var scaleMultiplier = this.getScaleMultiplier(deltaY);
 	
 	      if (scaleMultiplier !== 1) {
-	        event.preventDefault();
+	        // event.preventDefault();
 	        this.zoomTo(clientX, clientY, scaleMultiplier, event);
 	      }
 	    }
@@ -2475,7 +2637,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = _propTypes2.default.shape({
 	  id: _propTypes2.default.string.isRequired,
 	  radius: _propTypes2.default.number
-	});/***/ },
+	}); // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+
+/***/ },
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -2556,7 +2738,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	  } else {
 	    fn.apply(undefined, rest);
 	  }
-	};var cancelAnimationFrame = exports.cancelAnimationFrame = function cancelAnimationFrame() {
+	}; // Copyright (c) 2019 Uber Technologies, Inc.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a copy
+	// of this software and associated documentation files (the "Software"), to deal
+	// in the Software without restriction, including without limitation the rights
+	// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	// copies of the Software, and to permit persons to whom the Software is
+	// furnished to do so, subject to the following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included in
+	// all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	// THE SOFTWARE.
+	
+	var cancelAnimationFrame = exports.cancelAnimationFrame = function cancelAnimationFrame() {
 	  if (_global.window && {}.hasOwnProperty.call(_global.window, 'cancelAnimationFrame')) {
 	    _global.window.cancelAnimationFrame.apply(_global.window, arguments);
 	  }

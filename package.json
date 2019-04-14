@@ -1,7 +1,7 @@
 {
   "name": "react-vis-force",
   "version": "0.3.1",
-  "main": "./dist/react-vis-force.js",
+  "main": "./dist/react-vis-force.min.js",
   "homepage": "http://uber.github.io/react-vis-force",
   "license": "MIT",
   "devDependencies": {
@@ -41,11 +41,12 @@
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
     "json-loader": "0.5.4",
+    "nodemon": "^1.18.11",
     "object-assign": "4.1.0",
     "path-exists": "2.1.0",
     "postcss-loader": "0.13.0",
     "promise": "7.1.1",
-    "react": "^15.5.4",
+    "react": "^16.8.6",
     "react-addons-perf": "^15.3.2",
     "react-dev-utils": "^0.2.1",
     "react-dom": "^15.3.1",
@@ -64,8 +65,8 @@
     "whatwg-fetch": "1.0.0"
   },
   "peerDependencies": {
-    "react": "0.14.x - 15.x",
-    "react-dom": "0.14.x - 15.x"
+    "react": "0.14.x - 16.x",
+    "react-dom": "0.14.x - 16.x"
   },
   "dependencies": {
     "d3-force": "^1.0.2",
@@ -74,6 +75,7 @@
     "prop-types": "^15.5.10"
   },
   "scripts": {
+    "watch": "nodemon --watch ./src scripts/build.js",
     "start": "npm run storybook",
     "build": "node scripts/build.js",
     "build:docs": "npm run build-storybook",
